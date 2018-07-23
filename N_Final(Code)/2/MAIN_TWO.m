@@ -1,7 +1,7 @@
 clc;
 clear all;
 close all;
-lambda1=0.5;
+lambda1=0.8;
 nvm=40;
 no_of_task=500:150:1100;
 

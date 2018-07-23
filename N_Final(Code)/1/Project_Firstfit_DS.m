@@ -8,7 +8,7 @@ min_sz=100;
 max_sz=10000;
 min_sp=1000;
 max_sp=2000;
-no_of_vm=10:5:40;
+no_of_vm=20:5:40;
 L1=length(no_of_vm);
 c1=0;
 n_dl=zeros(1,L1); % number of task meet deadline 
@@ -16,7 +16,7 @@ avg_res_time=zeros(1,L1);
 guarantee_ratio=zeros(1,L1);
 
 
-for nvm=10:5:40
+for nvm=20:5:40
  
 c1=c1+1;
 

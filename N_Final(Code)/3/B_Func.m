@@ -2,7 +2,7 @@ function [ sz1 , dl1 , a1 , pos ] = B_Func( task,a1,sz1,dl1,nt,flag )
 
     pos=1:nt;
     if flag==1
-    %-----Ascending BUBBLE SORT as per cost-time function----- 
+    %-----Ascending BUBBLE SORT as per size and deadline----- 
     for i=1:nt
         for j=1:nt-1
             if task(j)>task(j+1)
